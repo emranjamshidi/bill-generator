@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Bill Generator</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="d-flex justify-content-center">
+    <div class="loader">
+      <img src="./images/foodA.png" alt="loader" />
+    </div>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <div class="container p-0 d-flex flex-column align-items-center">
+      <!-- header - start -->
+      <header class="header d-flex justify-content-center align-items-center">
+        <h1 class="header__title">رستوران مک دونالد عمران جمشیدی</h1>
+      </header>
+      <!-- header - end -->
+
+      <!-- foods - start -->
+      <section class="foods w-100">
+        <!-- food card 1 -->
+        <div class="foods__item mx-5 row d-flex flex-row-reverse align-items-center">
+          <div class="foods__item--image col-3">
+            <img class="w-100 rounded-circle shadow-lg" src="./images/foodA.png" alt="food" />
+          </div>
+          <div class="foods__item--text col-6 text-right">
+            <div class="name font-weight-bold">قیمه مکزیکی با سس آلفردو</div>
+            <div class="d-flex flex-row-reverse"><span class="price">۳۷/۰۰۰</span> <span class="tooman mr-2 mt-2 font-weight-bold">تومان</span></div>
+            <div class="d-flex flex-row-reverse align-items-center mr-4">
+              <div class="number">۰</div>
+              <div class="d-flex flex-column mr-3 mt-3 text-orange">
+                <i class="fas fa-plus increase"></i>
+                <i class="fas fa-minus decrease"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 d-flex h-100 align-items-end pb-4 sum-div">
+            <div class="d-flex flex-row-reverse"><span class="price">۰</span> <span class="tooman mr-2 mt-2 font-weight-bold">تومان</span></div>
+          </div>
+        </div>
+
+        <!-- food card 1 -->
+        <div class="foods__item mx-5 row d-flex flex-row-reverse align-items-center">
+          <div class="foods__item--image col-3">
+            <img class="w-100 rounded-circle shadow-lg" src="./images/foodB.png" alt="food" />
+          </div>
+          <div class="foods__item--text col-6 text-right">
+            <div class="name font-weight-bold">ماهی سالامون</div>
+            <div class="d-flex flex-row-reverse"><span class="price">۴۳/۰۰۰</span> <span class="tooman mr-2 mt-2 font-weight-bold">تومان</span></div>
+            <div class="d-flex flex-row-reverse align-items-center mr-4">
+              <div class="number">۰</div>
+              <div class="d-flex flex-column mr-3 mt-3 text-orange">
+                <i class="fas fa-plus increase"></i>
+                <i class="fas fa-minus decrease"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 d-flex h-100 align-items-end pb-4 sum-div">
+            <div class="d-flex flex-row-reverse"><span class="price sum">۰</span> <span class="tooman mr-2 mt-2 font-weight-bold">تومان</span></div>
+          </div>
+        </div>
+
+        <!-- food card 1 -->
+        <div class="foods__item mx-5 row d-flex flex-row-reverse align-items-center">
+          <div class="foods__item--image col-3">
+            <img class="w-100 rounded-circle shadow-lg" src="./images/foodA.png" alt="food" />
+          </div>
+          <div class="foods__item--text col-6 text-right">
+            <div class="name font-weight-bold">لازینیای چینی</div>
+            <div class="d-flex flex-row-reverse"><span class="price">۳۲/۰۰۰</span> <span class="tooman mr-2 mt-2 font-weight-bold">تومان</span></div>
+            <div class="d-flex flex-row-reverse align-items-center mr-4">
+              <div class="number">۰</div>
+              <div class="d-flex flex-column mr-3 mt-3 text-orange">
+                <i class="fas fa-plus increase"></i>
+                <i class="fas fa-minus decrease"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 d-flex h-100 align-items-end pb-4 sum-div">
+            <div class="d-flex flex-row-reverse"><span class="price sum">۰</span> <span class="tooman mr-2 mt-2 font-weight-bold">تومان</span></div>
+          </div>
+        </div>
+
+        <!-- food card 1 -->
+        <div class="foods__item mx-5 row d-flex flex-row-reverse align-items-center">
+          <div class="foods__item--image col-3">
+            <img class="w-100 rounded-circle shadow-lg" src="./images/foodB.png" alt="food" />
+          </div>
+          <div class="foods__item--text col-6 text-right">
+            <div class="name font-weight-bold">سوپ جو با پنیر اضافه</div>
+            <div class="d-flex flex-row-reverse"><span class="price">۱۹/۰۰۰</span> <span class="tooman mr-2 mt-2 font-weight-bold">تومان</span></div>
+            <div class="d-flex flex-row-reverse align-items-center mr-4">
+              <div class="number">۰</div>
+              <div class="d-flex flex-column mr-3 mt-3 text-orange">
+                <i class="fas fa-plus increase"></i>
+                <i class="fas fa-minus decrease"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 d-flex h-100 align-items-end pb-4 sum-div">
+            <div class="d-flex flex-row-reverse"><span class="price sum">۰</span> <span class="tooman mr-2 mt-2 font-weight-bold">تومان</span></div>
+          </div>
+        </div>
+
+        <!-- food card 1 -->
+        <div class="foods__item mx-5 row d-flex flex-row-reverse align-items-center">
+          <div class="foods__item--image col-3">
+            <img class="w-100 rounded-circle shadow-lg" src="./images/foodA.png" alt="food" />
+          </div>
+          <div class="foods__item--text col-6 text-right">
+            <div class="name font-weight-bold">کباب نکوبیده</div>
+            <div class="d-flex flex-row-reverse"><span class="price">۳۹/۰۰۰</span> <span class="tooman mr-2 mt-2 font-weight-bold">تومان</span></div>
+            <div class="d-flex flex-row-reverse align-items-center mr-4">
+              <div class="number">۰</div>
+              <div class="d-flex flex-column mr-3 mt-3 text-orange">
+                <i class="fas fa-plus increase"></i>
+                <i class="fas fa-minus decrease"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 d-flex h-100 align-items-end pb-4 sum-div">
+            <div class="d-flex flex-row-reverse"><span class="price sum">۰</span> <span class="tooman mr-2 mt-2 font-weight-bold">تومان</span></div>
+          </div>
+        </div>
+
+        <!-- food card 1 -->
+        <div class="foods__item mx-5 row d-flex flex-row-reverse align-items-center">
+          <div class="foods__item--image col-3">
+            <img class="w-100 rounded-circle shadow-lg" src="./images/foodB.png" alt="food" />
+          </div>
+          <div class="foods__item--text col-6 text-right">
+            <div class="name font-weight-bold">قرمه زردی</div>
+            <div class="d-flex flex-row-reverse"><span class="price">۱۷/۰۰۰</span> <span class="tooman mr-2 mt-2 font-weight-bold">تومان</span></div>
+            <div class="d-flex flex-row-reverse align-items-center mr-4">
+              <div class="number">۰</div>
+              <div class="d-flex flex-column mr-3 mt-3 text-orange">
+                <i class="fas fa-plus increase"></i>
+                <i class="fas fa-minus decrease"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 d-flex h-100 align-items-end pb-4 sum-div">
+            <div class="d-flex flex-row-reverse"><span class="price sum">۰</span> <span class="tooman mr-2 mt-2 font-weight-bold">تومان</span></div>
+          </div>
+        </div>
+
+        <!-- food card 1 -->
+        <div class="foods__item mx-5 row d-flex flex-row-reverse align-items-center">
+          <div class="foods__item--image col-3">
+            <img class="w-100 rounded-circle shadow-lg" src="./images/foodA.png" alt="food" />
+          </div>
+          <div class="foods__item--text col-6 text-right">
+            <div class="name font-weight-bold">استیک سنگی</div>
+            <div class="d-flex flex-row-reverse"><span class="price">۴۸/۰۰۰</span> <span class="tooman mr-2 mt-2 font-weight-bold">تومان</span></div>
+            <div class="d-flex flex-row-reverse align-items-center mr-4">
+              <div class="number">۰</div>
+              <div class="d-flex flex-column mr-3 mt-3 text-orange">
+                <i class="fas fa-plus increase"></i>
+                <i class="fas fa-minus decrease"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 d-flex h-100 align-items-end pb-4 sum-div">
+            <div class="d-flex flex-row-reverse"><span class="price sum">۰</span> <span class="tooman mr-2 mt-2 font-weight-bold">تومان</span></div>
+          </div>
+        </div>
+      </section>
+      <!-- foods - end -->
+
+      <!-- footer - start -->
+      <footer class="footer w-100 row m-0">
+        <!-- footer form - start -->
+        <div class="footer__form col-7 d-flex flex-column align-items-center justify-content-end">
+          <div class="footer__form--input w-100 rounded-pill d-flex align-items-center position-relative">
+            <input id="discountInput" class="position-absolute w-100 h-100 rounded-pill pr-4" type="text" placeholder="کد تخفیف" />
+            <button id="discount" class="btn text-light rounded-circle text-center ml-1"><i class="fas fa-plus"></i></button>
+          </div>
+          <button class="footer__form--button w-100 text-light btn mt-4 mb-5">ثبت سفارش</button>
+        </div>
+        <!-- footer form - end -->
+
+        <!-- footer text - start -->
+        <div class="footer__texts col-5">
+          <table class="footer__texts--features w-100">
+            <tr>
+              <td class="pr-1">تومان</td>
+              <td id="collectOrders" class="num pr-4 py-2">۰</td>
+              <td class="text-center">جمع کل سفارشات</td>
+            </tr>
+
+            <tr>
+              <td class="pr-1">تومان</td>
+              <td id="wage" class="num pr-4 py-2">۰</td>
+              <td class="text-center">حق سرویس و کارمزد</td>
+            </tr>
+
+            <tr>
+              <td class="pr-1">تومان</td>
+              <td id="off" class="num pr-4 py-2">۰</td>
+              <td class="text-center">تخفیف</td>
+            </tr>
+          </table>
+
+          <div class="footer__texts--total w-100 mt-4 mb-5 d-flex flex-row-reverse justify-content-center">
+            <span id="final" class="total">۰</span>
+            <span class="mr-2 mt-3 toomanbig">تومان</span>
+          </div>
+        </div>
+        
+        <!-- footer text - end -->
+      </footer>
+      <!-- footer - end -->
+  <div class="fs ff">
+<p >
+طراحی توسط عمران جمشیدی
+</p>
+      </div>
+    </div>    
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>

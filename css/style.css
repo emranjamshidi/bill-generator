@@ -1,0 +1,157 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+/*********************** some stuff ***********************/
+@font-face {
+  font-family: "Yekan";
+  src: url(../fonts/Yekan\Bakh\Medium.woff);
+}
+.text-orange {
+  color: #e74d3d;
+}
+
+html {
+  font-size: 62.5%;
+  /* rem : 10px */
+  font-family: "Yekan";
+}
+
+body {
+  box-sizing: border-box;
+  width: 768px;
+  height: 1024px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.container {
+  border: 7px solid rgba(241, 196, 15, 0.5);
+  border-radius: 3.63rem;
+  margin: 40px 82px;
+}
+
+/*********************** header ***********************/
+.header {
+  width: 100%;
+  border-radius: 32px 32px 0 0;
+  height: 80px;
+  box-shadow: 0px 0px 20px #b9b8b8;
+}
+
+.header__title {
+  font-size: 2.2rem;
+}
+
+/*********************** foods ***********************/
+.foods {
+  height: 645px;
+  overflow-y: scroll;
+}
+.foods__item {
+  height: 20%;
+  border-bottom: solid 1.2px #c6c6c6;
+}
+.foods__item--text .name {
+  font-size: 1.74rem;
+}
+.foods .price {
+  font-size: 1.93rem;
+}
+.foods .tooman {
+  font-size: 1.4rem;
+}
+.foods__item--text .number {
+  font-size: 2.81rem;
+}
+.foods__item--text i {
+  font-size: 1.7rem;
+}
+
+/*********************** footer ***********************/
+.footer {
+  height: 230px;
+  border-radius: 0 0 32px 32px;
+}
+.footer__form--input {
+  height: 45px;
+  border: solid 1.2px #e67e22;
+}
+.footer__form--input button {
+  width: 38px;
+  height: 38px;
+  border: 1.2px solid #f8c26e;
+  font-size: 1.8rem;
+  background-color: #f39c12;
+  z-index: 1;
+}
+.footer__form--input input {
+  border: none;
+  text-align: right;
+  font-size: 2rem;
+  color: #5e5655;
+  font-weight: bold;
+}
+.footer__form--input input::placeholder {
+  color: rgba(230, 126, 34, 0.71);
+}
+.footer__form--input input:focus {
+  outline: none;
+}
+.footer__form--button {
+  height: 67.9px;
+  border-radius: 11.7px;
+  background-color: #e67e22;
+  font-size: 2.93rem;
+}
+.footer__texts .total {
+  font-size: 4.5rem;
+}
+.footer__texts .toomanbig {
+  font-size: 2.9rem;
+}
+.footer__texts--features {
+  font-size: 1.2rem;
+}
+.footer__texts--features .num {
+  font-size: 2rem;
+}
+
+/********** loading **********/
+.loader {
+  z-index: 500;
+  position: fixed;
+  background-color: #14e4b3;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader img {
+  animation-name: rotate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(1080deg);
+  }
+  100% {
+    transform: rotateZ(1440deg);
+  }
+}
+.fs{
+  font-size: x-large;
+}
+.ff{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
